@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+Guess the number (1-30)
+<form method="post" action="/calculate">
+    Your guess: <input type="number" name="guess">
+    <button type="submit">OK</button>
+</form>
+{% endblock content %}
